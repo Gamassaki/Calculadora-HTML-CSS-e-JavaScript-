@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.branco{
+    color: #fff;
+}
+h1{
+    margin: 25px 0px 30px 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0ffff;
+}
+#visor{
+    width: 40%;
+    height: 40vh;
+    background-color: #000;
+    position: relative;
+    bottom: 20%;
+    text-align: center;
+    border-radius: 35px;
+    min-width: 240px;
+    min-height: 300px;
+
+}
+#corpo{
+    width: 25%;
+    height: 52.5vh;
+    background-color: #353636;
+    position: absolute;
+    bottom: 12.5%;
+    border-radius: 0px 0px 35px 35px;
+    min-width: 240px;
+    min-height: 330px;
+}
+.entradStilo{
+    outline: none;
+    width: 60%;
+    padding: 9px 20px;
+    border: 0px;
+    text-align: right;
+    background-color: #fff;
+    font-size: 19px;
+}
+.visorbaixo{
+    margin-top: -1px;
+    border-radius: 0px 0px 15px 15px;
+}
+.visorcima{
+    border-radius: 15px 15px 0px 0px;
+}
+.divisao{
+    margin: 10px;
+    text-align: center;
+}
+.divisao input{
+    width: 18.5%;
+    height: 7.5vh;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 25px;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    outline: none;
+    min-height: 40px;
+}
+.divisao .azul{
+    background-color: #00ffff;
+    color: #000;
+}
+.divisao .verde{
+    background-color: #adff2f;
+    color: #000;
+}
+.direita{
+    text-align: right;
+}
