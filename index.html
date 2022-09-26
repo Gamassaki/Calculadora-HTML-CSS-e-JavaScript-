@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/etilo.css">
+
+    <title>Calculadora</title>
+</head>
+<body>
+    
+    <div id="visor">
+        <h1 class="branco">Calculadora</h1>
+        <form action="">
+            <input id="cal" disabled class="entradStilo visorcima" type="text" placeholder="0">
+            <input id="resultado" disabled class="entradStilo visorbaixo" type="text">
+        </form>
+    </div>
+
+    <div id="corpo">
+
+        <div class="divisao">
+            <input onclick="calcular('acao', 'AC')" class="verde" type="button" value="AC">
+            <input onclick="calcular('acao', 'Del')" class="verde" type="button" value="Del">
+            <input onclick="calcular('acao', '%')" class="azul" type="button" value="%">
+            <input onclick="calcular('acao', '/')" class="azul" type="button" value="&divide;">
+        </div>
+        <div class="divisao">
+            <input onclick="calcular('valor', 7)" type="button" value="7">
+            <input onclick="calcular('valor', 8)" type="button" value="8">
+            <input onclick="calcular('valor', 9)" type="button" value="9">
+            <input onclick="calcular('acao', '*')" class="azul" type="button" value="x">
+        </div>
+        <div class="divisao">
+            <input onclick="calcular('valor', 4)" type="button" value="4">
+            <input onclick="calcular('valor', 5)" type="button" value="5">
+            <input onclick="calcular('valor', 6)" type="button" value="6">
+            <input onclick="calcular('acao', '-')" class="azul" type="button" value="-">
+        </div>
+        <div class="divisao">
+            <input onclick="calcular('valor', 1)" type="button" value="1">
+            <input onclick="calcular('valor', 2)" type="button" value="2">
+            <input onclick="calcular('valor', 3)" type="button" value="3">
+            <input onclick="calcular('acao', '+')" class="azul" type="button" value="+">
+        </div>
+        <div class="divisao">
+            <input onclick="calcular('valor', 0)" type="button" value="0">
+            <input onclick="calcular('acao', '00')" type="button" value="00">
+            <input onclick="calcular('acao', '.')" class="azul" type="button" value=".">
+            <input onclick="calcular('acao', '=')" class="azul" type="button" value="=">
+        </div>
+
+    </div>
+
+    <script src="js/estilo.js"></script>
+
+</body>
+</html>
